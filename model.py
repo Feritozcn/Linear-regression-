@@ -1,7 +1,5 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-
-# Load the dataset
 df=pd.read_csv("data.csv")
 def mean_squared_error(m,b,points):
     total_error=0
